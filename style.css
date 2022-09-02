@@ -15,7 +15,7 @@ button {
 
 /* BASE */
 
-.app {
+.app {  
   --orange: hsl(31, 77%, 52%);
   --cyan: hsl(184, 100%, 22%);
   --dark-cyan: hsl(179, 100%, 13%);
@@ -26,6 +26,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: var(--l-gray);
 }
 
 /* STYLE */
@@ -34,7 +35,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 950px;
+  width: 925px;
 }
 
 .card {
